@@ -1,5 +1,5 @@
 // app/books/page.tsx
-import BookCard, { Book } from "@/components/BookCard";
+import BookCard, { Book } from "../../components/BookCard";
 
 const books: Book[] = [
   {
