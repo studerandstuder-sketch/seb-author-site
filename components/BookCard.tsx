@@ -1,8 +1,6 @@
 // components/BookCard.tsx
-"use client";
 import Image from "next/image";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
 export type Book = {
   title: string;
@@ -11,13 +9,10 @@ export type Book = {
   amazonUrl: string;
 };
 
+// No 'use client' and no framer-motion; works in server components
 export default function BookCard({ book }: { book: Book }) {
   return (
-    <motion.article
-      initial={{ opacity: 0, y: 10 }}
-      animate={{ opacity: 1, y: 0 }}
-      className="group rounded-2xl p-4 shadow-sm ring-1 ring-slate-200 hover:shadow-md bg-white"
-    >
+    <article className="group rounded-2xl p-4 shadow-sm ring-1 ring-slate-200 hover:shadow-md bg-white transition">
       <div className="w-full aspect-[3/4] relative overflow-hidden rounded-xl">
         <Image
           src={book.coverSrc}
@@ -40,6 +35,6 @@ export default function BookCard({ book }: { book: Book }) {
       >
         View on Amazon
       </Link>
-    </motion.article>
+    </article>
   );
 }
