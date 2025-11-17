@@ -353,23 +353,21 @@ function About() {
     <section id="about" className="bg-neutral-900 py-12 text-neutral-200">
       <Container>
         <h2 className="mb-4 font-heading text-2xl font-bold tracking-wide">ABOUT</h2>
-        <p className="max-w-3xl leading-relaxed text-neutral-300">
-          Sébastien Studer, M.Sc., is a French engineer, human performance
-          researcher, and the founder of the ALIGNISM™ Movement — a modern
-          philosophy dedicated to living with clarity, instinct, and coherence.
-          <br />
-          <br />
-          His work explores the intersections of love, money, health, aging, and
-          meaning through both fiction and non-fiction. Based in Miami and living
-          between the United States and Brazil, Sébastien writes with a distinct,
-          minimalist voice shaped by science, movement, and lived experience
-          across cultures.
-          <br />
-          <br />
-          Known for his direct style that favors clarity over noise, he creates
-          practical frameworks and modern parables that help readers realign
-          their lives toward simplicity, peace of mind, and what truly matters.
-        </p>
+<p className="max-w-3xl leading-relaxed text-neutral-300 md:text-justify">
+  Sébastien Studer, M.Sc., is a French engineer, human performance
+  researcher, and the founder of the ALIGNISM™ Movement — a modern
+  philosophy dedicated to living with clarity, instinct, and coherence.
+  <br /><br />
+  His work explores the intersections of love, money, health, aging,
+  and meaning through both fiction and non-fiction. Based in Miami and
+  living between the United States and Brazil, Sébastien writes with a
+  distinct, minimalist voice shaped by science, movement, and lived
+  experience across cultures.
+  <br /><br />
+  Known for his direct style that favors clarity over noise, he creates
+  practical frameworks and modern parables that help readers realign
+  their lives toward simplicity, peace of mind, and what truly matters.
+</p>
       </Container>
     </section>
   );
