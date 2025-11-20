@@ -170,44 +170,40 @@ function Hero() {
 }
 
 function News() {
-return (
-  <section id="news" className="bg-neutral-950 py-12 text-neutral-100">
-    <Container>
-      <h2 className="mb-6 font-heading text-2xl font-bold tracking-wide">
-        LATEST NEWS
-      </h2>
-     <div className="grid gap-6 md:grid-cols-[1.2fr_1fr]">
-        <article className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
-          <div className="grid gap-4 md:grid-cols-[220px_1fr] md:gap-6">
-            <img
-              src="/covers/liberty.jpg"
-              alt="Liberty cover"
-              className="mx-auto w-full max-w-[220px] rounded-md border border-white/10"
-            />
-            <div>
-              <h3 className="text-xl font-extrabold">
-                Liberty — Under Preparation
-              </h3>
-              <p className="mt-1 text-xs text-neutral-400">
-                Target Release: 2026
-              </p>
-              <p className="mt-3 text-neutral-200">
-                Liberty — The Art of Living is currently in development. A
-                philosophical exploration of autonomy, clarity, and the
-                architecture of a free life — the core pillar of the Alignism™
-                movement.
-              </p>
-            </div>
-          </div>
-        </article>
-      </div>
-    </Container>
-  </section>
+  return (
+    <section id="news" className="bg-neutral-950 py-12 text-neutral-100">
+      <Container>
+        <h2 className="mb-6 font-heading text-2xl font-bold tracking-wide">
+          LATEST NEWS
+        </h2>
 
-
-
+        <div className="grid gap-6 md:grid-cols-[1.2fr_1fr]">
+          {/* LEFT: Liberty */}
+          <article className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
+            <div className="grid gap-4 md:grid-cols-[220px_1fr] md:gap-6">
+              <img
+                src="/covers/liberty.jpg"
+                alt="Liberty cover"
+                className="mx-auto w-full max-w-[220px] rounded-md border border-white/10"
+              />
+              <div>
+                <h3 className="text-xl font-extrabold">
+                  Liberty — Under Preparation
+                </h3>
+                <p className="mt-1 text-xs text-neutral-400">
+                  Target Release: 2026
+                </p>
+                <p className="mt-3 text-neutral-200">
+                  Liberty — The Art of Living is currently in development. A
+                  philosophical exploration of autonomy, clarity, and the
+                  architecture of a free life — the core pillar of the
+                  Alignism™ movement.
+                </p>
+              </div>
             </div>
           </article>
+
+          {/* RIGHT: Micro updates */}
           <aside className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
             <div className="flex items-center gap-2">
               <Twitter className="h-5 w-5" />
@@ -217,10 +213,10 @@ return (
             </div>
             <ul className="mt-4 space-y-3 text-sm text-neutral-300">
               <li className="border-l-2 border-yellow-400/80 pl-3">
-    <em>Aligned</em> (French Version) — Audible version now online.
-    <div className="text-xs text-neutral-400">Nov 20, 2025</div>
-  </li>
-  <li className="border-l-2 border-yellow-400/80 pl-3">
+                <em>Aligned</em> (French Version) — Audible version now online.
+                <div className="text-xs text-neutral-400">Nov 20, 2025</div>
+              </li>
+              <li className="border-l-2 border-yellow-400/80 pl-3">
                 New French translation of <em>Aligned</em> in progress.
                 <div className="text-xs text-neutral-400">Nov 7, 2025</div>
               </li>
@@ -239,6 +235,7 @@ return (
     </section>
   );
 }
+
 
 function BooksCarousel() {
   const [selected, setSelected] = useState(null);
