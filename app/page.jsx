@@ -170,17 +170,16 @@ function Hero() {
 }
 
 function News() {
-  return (
+ return (
   <section id="news" className="bg-neutral-950 py-12 text-neutral-100">
     <Container>
       <h2 className="mb-6 font-heading text-2xl font-bold tracking-wide">
         LATEST NEWS
       </h2>
 
-      {/* --- NEWS GRID --- */}
+      {/* LATEST NEWS GRID */}
       <div className="grid gap-6 md:grid-cols-[1.2fr_1fr]">
-
-        {/* Liberty Card */}
+        {/* Liberty card */}
         <article className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
           <div className="grid gap-4 md:grid-cols-[220px_1fr] md:gap-6">
             <img
@@ -188,7 +187,6 @@ function News() {
               alt="Liberty cover"
               className="mx-auto w-full max-w-[220px] rounded-md border border-white/10"
             />
-
             <div>
               <h3 className="text-xl font-extrabold">
                 Liberty — Under Preparation
@@ -197,9 +195,11 @@ function News() {
                 Target Release: 2026
               </p>
               <p className="mt-3 text-neutral-200">
-                Liberty — The Art of Living is currently in development...
+                Liberty — The Art of Living is currently in development. A
+                philosophical exploration of autonomy, clarity, and the
+                architecture of a free life — the core pillar of the Alignism™
+                movement.
               </p>
-
               <a
                 href="#liberty"
                 className="mt-4 inline-block rounded-md bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/20 transition"
@@ -210,27 +210,32 @@ function News() {
           </div>
         </article>
 
-        {/* ... other articles ... */}
-
+        {/* RIGHT COLUMN – for Instinct card / micro updates etc. */}
+        <article className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
+          {/* put your Instinct news or micro-updates here */}
+        </article>
       </div>
-      {/* --- END NEWS GRID --- */}
+      {/* END GRID */}
 
-      {/* --- PLACE LIBERTY OVERVIEW HERE --- */}
+      {/* LIBERTY FULL OVERVIEW – appears AFTER news */}
       <section
         id="liberty"
         className="mt-16 rounded-xl border border-white/10 bg-neutral-900 p-8"
       >
         <h2 className="text-2xl font-bold mb-4">Liberty — Full Overview</h2>
         <p className="text-neutral-300 leading-relaxed">
-          This section will contain the full presentation of Liberty — The Art of Living…
+          This section will contain the full presentation of{" "}
+          <span className="font-semibold">Liberty — The Art of Living</span>:
+          themes, structure, and how it fits into the Alignism™ movement.
         </p>
-        <p className="mt-4 text-neutral-400 text-sm">(Full content coming soon)</p>
+        <p className="mt-4 text-neutral-400 text-sm">
+          (Full content coming soon)
+        </p>
       </section>
-      {/* --- END LIBERTY OVERVIEW --- */}
-
     </Container>
   </section>
 );
+
 
             </div>
           </article>
