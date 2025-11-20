@@ -188,6 +188,15 @@ function News() {
                 <section id="liberty" className="mt-16 rounded-xl border border-white/10 bg-neutral-900 p-8">
   <h2 className="text-2xl font-bold mb-4">Liberty — Full Overview</h2>
   <p className="text-neutral-300 leading-relaxed">
+    This section will contain the full presentation of <span className="font-semibold">Liberty — The Art of Living</span>:
+    themes, structure, and how it fits into the Alignism™ movement.
+  </p>
+  <p className="mt-4 text-neutral-400 text-sm">(Full content coming soon)</p>
+</section>
+
+                <section id="liberty" className="mt-16 rounded-xl border border-white/10 bg-neutral-900 p-8">
+  <h2 className="text-2xl font-bold mb-4">Liberty — Full Overview</h2>
+  <p className="text-neutral-300 leading-relaxed">
     This section will contain the full presentation of Liberty — The Art of Living…
   </p>
   <p className="mt-4 text-neutral-400 text-sm">(Full content coming soon)</p>
