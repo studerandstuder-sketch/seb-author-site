@@ -180,24 +180,22 @@ function News() {
           <article className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
             <div className="grid gap-4 md:grid-cols-[220px_1fr] md:gap-6">
               <img
-                src="/covers/instinct.jpg"
-                alt="Instinct cover"
+                src="/covers/liberty.jpg"
+                alt="Liberty cover"
                 className="mx-auto w-full max-w-[220px] rounded-md border border-white/10"
               />
               <div>
                 <h3 className="text-xl font-extrabold">
-                  INSTINCT — Paperback now available
+                  Liberty — Under Preparation
                 </h3>
-                <p className="mt-1 text-xs text-neutral-400">Wed, Nov 6, 2025</p>
+                <p className="mt-1 text-xs text-neutral-400">Target Release: 2026</p>
                 <p className="mt-3 text-neutral-200">
-                  A modern parable about family, progress, and what remains when
-                  everything gets too clear. Explore the story behind the release,
-                  early reviews, and where to get it.
+                  Liberty — The Art of Living is currently in development. A philosophical exploration of autonomy, clarity, and the architecture of a free life — the core pillar of the Alignism™ movement.
                 </p>
                 <a
-                  href="https://www.amazon.com/INSTINCT-Animal-Inside-Sebastien-Studer/dp/B0FYLZVGDP"
-                  className="mt-4 inline-block rounded-md bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg:white/20 hover:bg-white/20"
-                >
+                  href="/liberty"
+          className="mt-4 inline-block rounded-md bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/20 transition"
+        >
                   Read more
                 </a>
               </div>
@@ -212,6 +210,10 @@ function News() {
             </div>
             <ul className="mt-4 space-y-3 text-sm text-neutral-300">
               <li className="border-l-2 border-yellow-400/80 pl-3">
+    <em>Aligned</em> (French Version) — Audible version now online.
+    <div className="text-xs text-neutral-400">Nov 20, 2025</div>
+  </li>
+  <li className="border-l-2 border-yellow-400/80 pl-3">
                 New French translation of <em>Aligned</em> in progress.
                 <div className="text-xs text-neutral-400">Nov 7, 2025</div>
               </li>
