@@ -185,6 +185,13 @@ function News() {
                 className="mx-auto w-full max-w-[220px] rounded-md border border-white/10"
               />
               <div>
+                <section id="liberty" className="mt-16 rounded-xl border border-white/10 bg-neutral-900 p-8">
+  <h2 className="text-2xl font-bold mb-4">Liberty — Full Overview</h2>
+  <p className="text-neutral-300 leading-relaxed">
+    This section will contain the full presentation of Liberty — The Art of Living…
+  </p>
+  <p className="mt-4 text-neutral-400 text-sm">(Full content coming soon)</p>
+</section>
                 <h3 className="text-xl font-extrabold">
                   Liberty — Under Preparation
                 </h3>
@@ -192,12 +199,12 @@ function News() {
                 <p className="mt-3 text-neutral-200">
                   Liberty — The Art of Living is currently in development. A philosophical exploration of autonomy, clarity, and the architecture of a free life — the core pillar of the Alignism™ movement.
                 </p>
-                <a
-                  href="/liberty"
-          className="mt-4 inline-block rounded-md bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/20 transition"
-        >
-                  Read more
-                </a>
+               <a
+  href="/#liberty"
+  className="mt-4 inline-block rounded-md bg-white/10 px-4 py-2 text-sm font-semibold text-white hover:bg-white/20 transition"
+>
+  Read more
+</a>
               </div>
             </div>
           </article>
