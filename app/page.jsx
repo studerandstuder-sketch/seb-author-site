@@ -176,8 +176,7 @@ return (
       <h2 className="mb-6 font-heading text-2xl font-bold tracking-wide">
         LATEST NEWS
       </h2>
-
-      <div className="grid gap-6 md:grid-cols-[1.2fr_1fr]">
+     <div className="grid gap-6 md:grid-cols-[1.2fr_1fr]">
         <article className="rounded-xl border border-white/10 bg-neutral-900 p-4 md:p-6">
           <div className="grid gap-4 md:grid-cols-[220px_1fr] md:gap-6">
             <img
@@ -198,13 +197,9 @@ return (
                 architecture of a free life — the core pillar of the Alignism™
                 movement.
               </p>
-              {/* Read more button removed */}
             </div>
           </div>
         </article>
-
-        {/* Right column: keep your existing content here (Instinct / micro updates, etc.) */}
-        {/* ... */}
       </div>
     </Container>
   </section>
